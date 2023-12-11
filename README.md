@@ -1,0 +1,1 @@
+Here, I've compiled a couple of projects from the course, where I applied my knowledge in Python, database management, front-end basics, and utilized both the Flask and Django frameworks for practical application 🧐 .
