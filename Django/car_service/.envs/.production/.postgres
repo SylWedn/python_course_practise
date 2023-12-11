@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=car_service
+POSTGRES_USER=zBruRYUSiXZCRJemiQEKixIphdMxdcuf
+POSTGRES_PASSWORD=Z43hlPm14j6rmWn72PHWUbVBY94kEMr0pf8I8JzweclwYmvJVnKv7rjwV7aT0Adz

@@ -1,0 +1,25 @@
+2023-07-21 20:27:13,386 - INFO - <Warning message.>
+2023-07-21 20:27:13,386 - INFO - args uploaded: 23
+2023-07-21 20:27:13,386 - INFO - square_root uploaded: 2.8284271247461903
+2023-07-21 20:27:13,386 - INFO - Length calculated: 11
+2023-07-21 20:27:13,386 - INFO - Results uploaded: 4.0
+2023-07-21 20:37:13,658 - INFO - <Warning message.>
+2023-07-21 20:37:13,658 - INFO - args uploaded: 23
+2023-07-21 20:37:13,659 - INFO - square_root uploaded: 2.8284271247461903
+2023-07-21 20:37:13,659 - INFO - Length calculated: 11
+2023-07-21 20:37:13,659 - INFO - Results uploaded: 4.0
+2023-07-21 20:37:20,250 - INFO - <Warning message.>
+2023-07-21 20:37:20,250 - INFO - args uploaded: 23
+2023-07-21 20:37:20,250 - ERROR - Must be real number
+Traceback (most recent call last):
+  File "C:\Users\silvo\PycharmProjects\PTUA6\Sylvester\E.12\E.12.2.py", line 29, in return_square_root
+    result_square_root = math.sqrt(number)
+                         ^^^^^^^^^^^^^^^^^
+TypeError: must be real number, not str
+2023-07-21 20:37:20,264 - INFO - Length calculated: 11
+2023-07-21 20:37:20,264 - ERROR - Division by zero
+Traceback (most recent call last):
+  File "C:\Users\silvo\PycharmProjects\PTUA6\Sylvester\E.12\E.12.2.py", line 44, in return_division
+    result_division = x / y
+                      ~~^~~
+ZeroDivisionError: division by zero

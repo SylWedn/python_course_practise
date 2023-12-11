@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teachers</title>
+</head>
+<body>
+    <h1>list of teachersй</h1>
+    <ul>
+        {% for teacher in teachers %}
+            <li>{{ teacher.name }}</li>
+        {% endfor %}
+    </ul>
+    <h2>add teacher</h2>
+    <form method="POST" action="/add_teacher">
+        <label for="teacher_name">teacher name:</label>
+        <input type="text" id="teacher_name" name="name" required>
+        <button type="submit">add</button>
+    </form>
+</body>
+</html>

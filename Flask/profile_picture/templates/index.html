@@ -1,0 +1,6 @@
+<h1>Index</h1>
+{% if current_user.is_authenticated %}
+    Hi {{ current_user.username }}!
+{% else %}
+    Not logged in.
+{% endif %}

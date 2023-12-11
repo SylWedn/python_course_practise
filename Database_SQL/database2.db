@@ -1,0 +1,19 @@
+select * from darbuotojai;
+select GIMIMO_DATA from DARBUOTOJAI;
+select vardas, PAVARDĖ, PAREIGOS from DARBUOTOJAI;
+select DISTINCT SKYRIUS_PAVADINIMAS from DARBUOTOJAI;
+select * from DARBUOTOJAI where SKYRIUS_PAVADINIMAS='Gamybos';
+select PAREIGOS from DARBUOTOJAI where vardas = 'Giedrius';
+select * from DARBUOTOJAI where GIMIMO_DATA= "1986-09-19";
+select * from DARBUOTOJAI where PAVARDĖ = 'Sabutis';
+select VARDAS, PAVARDĖ FROM DARBUOTOJAI WHERE PAREIGOS= 'Programuotojas';
+insert into DARBUOTOJAI values ("Michael", "Jordan", "1990-01-02", "Programuotojas", "Gamybos");
+insert into DARBUOTOJAI (VARDAS, PAVARDĖ, GIMIMO_DATA) values ("Steve", "Jobs", "1980-02-03");
+UPDATE DARBUOTOJAI set  PAREIGOS = "Programuotojas", SKYRIUS_PAVADINIMAS = "Gamybos" where VARDAS = "Steve";
+DELETE from DARBUOTOJAI where GIMIMO_DATA ="1990-01-02";
+insert into DARBUOTOJAI (PAVARDĖ, PAREIGOS) values ("Antanaitis", "Programuotojas");
+insert into DARBUOTOJAI (PAVARDĖ, PAREIGOS) values ("Antanaitis", "Programuotojas");
+UPDATE DARBUOTOJAI set PAREIGOS = "Testuotojas" where PAVARDĖ = "Antanaitis"
+[9:35 PM] Judita Januškevičiūte
+
+select PAREIGOS, count(PAREIGOS) as testuotojų_skaičius from darbuotojai where PAREIGOS = 'Testuotojas'

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/silvo/Desktop/DB/CA_darbuotojai2.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="2222"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,11:mainDARBUOTOJAS"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="DARBUOTOJAS" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="65"/><column index="3" value="83"/><column index="4" value="112"/><column index="5" value="98"/><column index="6" value="82"/><column index="7" value="85"/><column index="8" value="102"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="PROJEKTAS" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="111"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="SKYRIUS" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="101"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sqlb_project&gt;&lt;db path=&quot;C:/Users/silvo/Desktop/DB/CA_darbuotojai2.db&quot; readonly=&quot;0&quot; foreign_keys=&quot;1&quot; case_sensitive_like=&quot;0&quot; temp_store=&quot;0&quot; wal_autocheckpoint=&quot;1000&quot; synchronous=&quot;2&quot;/&gt;&lt;attached/&gt;&lt;window&gt;&lt;main_tabs open=&quot;structure browser pragmas query&quot; current=&quot;3&quot;/&gt;&lt;/window&gt;&lt;tab_structure&gt;&lt;column_width id=&quot;0&quot; width=&quot;300&quot;/&gt;&lt;column_width id=&quot;1&quot; width=&quot;0&quot;/&gt;&lt;column_width id=&quot;2&quot; width=&quot;100&quot;/&gt;&lt;column_width id=&quot;3&quot; width=&quot;2222&quot;/&gt;&lt;column_width id=&quot;4&quot; width=&quot;0&quot;/&gt;&lt;expanded_item id=&quot;0&quot; parent=&quot;1&quot;/&gt;&lt;expanded_item id=&quot;1&quot; parent=&quot;1&quot;/&gt;&lt;expanded_item id=&quot;2&quot; parent=&quot;1&quot;/&gt;&lt;expanded_item id=&quot;3&quot; parent=&quot;1&quot;/&gt;&lt;/tab_structure&gt;&lt;tab_browse&gt;&lt;current_table name=&quot;4,11:mainDARBUOTOJAS&quot;/&gt;&lt;default_encoding codec=&quot;&quot;/&gt;&lt;browse_table_settings&gt;&lt;table schema=&quot;main&quot; name=&quot;DARBUOTOJAS&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;40&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;65&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;83&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;112&quot;/&gt;&lt;column index=&quot;5&quot; value=&quot;98&quot;/&gt;&lt;column index=&quot;6&quot; value=&quot;82&quot;/&gt;&lt;column index=&quot;7&quot; value=&quot;85&quot;/&gt;&lt;column index=&quot;8&quot; value=&quot;102&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;PROJEKTAS&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;40&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;111&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;SKYRIUS&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;40&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;101&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;sqlite_sequence&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;93&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;40&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;/browse_table_settings&gt;&lt;/tab_browse&gt;&lt;tab_sql&gt;&lt;sql name=&quot;SQL 1&quot;&gt;select * from darbuotojai;
+
+
+select GIMIMO_DATA from DARBUOTOJAI;
+
+
+select vardas, PAVARDĖ, PAREIGOS from DARBUOTOJAI;
+
+
+select DISTINCT SKYRIUS_PAVADINIMAS from DARBUOTOJAI;
+
+
+select * from DARBUOTOJAI where SKYRIUS_PAVADINIMAS='Gamybos';
+
+
+select PAREIGOS from DARBUOTOJAI where vardas = 'Giedrius';
+
+
+select * from DARBUOTOJAI where GIMIMO_DATA= &amp;quot;1986-09-19&amp;quot;;
+
+
+select * from DARBUOTOJAI where PAVARDĖ = 'Sabutis';
+
+
+select VARDAS, PAVARDĖ FROM DARBUOTOJAI WHERE PAREIGOS= 'Programuotojas';
+
+
+insert into DARBUOTOJAI values (&amp;quot;Michael&amp;quot;, &amp;quot;Jordan&amp;quot;, &amp;quot;1990-01-02&amp;quot;, &amp;quot;Programuotojas&amp;quot;, &amp;quot;Gamybos&amp;quot;);
+
+
+insert into DARBUOTOJAI (VARDAS, PAVARDĖ, GIMIMO_DATA) values (&amp;quot;Steve&amp;quot;, &amp;quot;Jobs&amp;quot;, &amp;quot;1980-02-03&amp;quot;);
+
+
+UPDATE DARBUOTOJAI set  PAREIGOS = &amp;quot;Programuotojas&amp;quot;, SKYRIUS_PAVADINIMAS = &amp;quot;Gamybos&amp;quot; where VARDAS = &amp;quot;Steve&amp;quot;;
+
+
+DELETE from DARBUOTOJAI where GIMIMO_DATA =&amp;quot;1990-01-02&amp;quot;;
+
+
+insert into DARBUOTOJAI (PAVARDĖ, PAREIGOS) values (&amp;quot;Antanaitis&amp;quot;, &amp;quot;Programuotojas&amp;quot;);
+
+
+insert into DARBUOTOJAI (PAVARDĖ, PAREIGOS) values (&amp;quot;Antanaitis&amp;quot;, &amp;quot;Programuotojas&amp;quot;);
+
+
+UPDATE DARBUOTOJAI set PAREIGOS = &amp;quot;Testuotojas&amp;quot; where PAVARDĖ = &amp;quot;Antanaitis&amp;quot;
+
+
+
+
+
+
+select PAREIGOS, count(PAREIGOS) as testuotojų_skaičius from darbuotojai where PAREIGOS = 'Testuotojas'&lt;/sql&gt;&lt;sql name=&quot;SQL 3&quot;&gt;select VARDAS, PAVARDĖ, ASMENS_KODAS from DARBUOTOJAS where asmens_kodas like '_880720%'
+
+
+SELECT ASMENS_KODAS, DIRBA_NUO FROM DARBUOTOJAS where DIRBA_NUO BETWEEN '2009-10-30' AND '2012-11-11';
+
+
+SELECT VARDAS, SKYRIUS_ID, PROJEKTAS_ID from DARBUOTOJAS WHERE SKYRIUS_ID in (2,3)
+
+
+SELECT VARDAS, ASMENS_KODAS FROM DARBUOTOJAS where ASMENS_KODAS like '4%' or ASMENS_KODAS like '6%';
+
+
+SELECT * FROM DARBUOTOJAS where ASMENS_KODAS like '_____12%';
+
+
+SELECT * from PROJEKTAS where PAVADINIMAS LIKE '_a%';
+
+
+SELECT * from DARBUOTOJAS where PAREIGOS is NULL;
+
+
+SELECT VARDAS, PAVARDĖ, DIRBA_NUO, PAREIGOS from DARBUOTOJAS where DIRBA_NUO &amp;gt; '2011-02-12' and PAREIGOS='Programuotojas'
+
+
+SELECT VARDAS, PAVARDĖ, DIRBA_NUO, PAREIGOS from DARBUOTOJAS WHERE  SKYRIUS_ID = (2) or PROJEKTAS_ID = (1)
+
+
+SELECT VARDAS FROM DARBUOTOJAS where VARDAS NOT like 'A%';
+
+
+
+select vardas, PAVARDĖ, dirba_nuo from darbuotojas order by dirba_nuo;
+
+
+
+select vardas, PAVARDĖ, dirba_nuo from darbuotojas order by dirba_nuo DESC;
+
+
+
+select min(projektas_id), max(projektas_id) from DARBUOTOJAS;
+
+
+
+select projektas_id, count(*) as Darbuotojai from DARBUOTOJAS group by projektas_id order by count(*);
+
+
+
+
+
+SELECT PROJEKTAS_ID, count(*) as Darbuotojai from DARBUOTOJAS GROUP BY PROJEKTAS_ID HAVING count(*) &gt; 3 ORDER BY PROJEKTAS_ID;
+
+
+
+select PROJEKTAS_ID, PAREIGOS, count(*) as DARBUOTOJU_SKAICIUS from DARBUOTOJAS where PAREIGOS = 'programuotojas';</sql><current_tab id="0"/></tab_sql></sqlb_project>

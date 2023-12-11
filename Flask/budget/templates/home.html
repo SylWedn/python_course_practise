@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hello, {{ current_user.username }}!</h1>
+    {% if balance %}
+    <h2>Your balance:</h2>
+    <p>Your current balance is: {{ balance }}</p>
+    {% endif %}
+    <h2>Your report:</h2>
+    {% for entry in income_entries %}
+        <p>Income: {{ entry.amount }}, {{ entry.sender }}, {{ entry.additional_info }}</p>
+    {% endfor %}
+    {% for entry in expense_entries %}
+        <p>Expense: {{ entry.amount }}, {{ entry.payment_option }}, {{ entry.good_or_service }}</p>
+    {% endfor %}
+{% endblock %}
+

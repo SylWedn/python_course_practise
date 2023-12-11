@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}
+    <title>Home</title>
+{% endblock %}
+
+{% block content %}
+    <form action="{{ url_for('index') }}" method="post">
+    {{ form.hidden_tag() }}
+    <div class="mb-3">
+        {{ form.name.label }}
+        {{ form.name }}
+        {% if form.name.errors %}
+        {% for error in form.name.errors %}
+        <small style="color: red">{{ error }}</small>
+        {% endfor %}
+        {% endif %}
+    </div>
+    <div class="mb-3">
+        {{ form.code.label }}
+        {{ form.code }}
+        {% if form.code.errors %}
+        {% for error in form.code.errors %}
+        <small style="color: red">{{ error }}</small>
+        {% endfor %}
+        {% endif %}
+    </div>
+    <div class="mb-3">
+        {{ form.category.label }}
+        {{ form.category }}
+        {% if form.category.errors %}
+        {% for error in form.category.errors %}
+        <small style="color: red">{{ error }}</small>
+        {% endfor %}
+        {% endif %}
+    </div>
+    <div class="mb-3">
+        {{ form.labels.label }}
+        {{ form.labels }}
+        {% if form.labels.errors %}
+        {% for error in form.labels.errors %}
+        <small style="color: red">{{ error }}</small>
+        {% endfor %}
+        {% endif %}
+    </div>
+    {{ form.submit }}
+</form>
+{% endblock %}

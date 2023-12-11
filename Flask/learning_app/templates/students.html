@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>students</title>
+</head>
+<body>
+    <h1>list of students</h1>
+    <ul>
+        {% for student in students %}
+            <li>{{ student.name }}</li>
+        {% endfor %}
+    </ul>
+    <h2>ad studentа</h2>
+    <form method="POST" action="/add_student">
+        <label for="student_name">student name</label>
+        <input type="text" id="student_name" name="name" required>
+        <button type="submit">add</button>
+    </form>
+</body>
+</html>

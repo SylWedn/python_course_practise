@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Enter expense data:</h2>
+    <form action="{{ url_for('expense') }}" method="post">
+    {{ expense_entry_form.hidden_tag() }}
+    <div class="mb-3">
+        {{ expense_entry_form.amount.label }}
+        {{ expense_entry_form.amount }}
+        {% if expense_entry_form.amount.errors %}
+        {% for error in expense_entry_form.amount.errors %}
+        <small style="color: red">{{ error }}</small>
+        {% endfor %}
+        {% endif %}
+    </div>
+    <div class="mb-3">
+        {{ expense_entry_form.payment_option.label }}
+        {{ expense_entry_form.payment_option }}
+        {% if expense_entry_form.payment_option.errors %}
+        {% for error in expense_entry_form.payment_option.errors %}
+        <small style="color: red">{{ error }}</small>
+        {% endfor %}
+        {% endif %}
+    </div>
+    <div class="mb-3">
+        {{ expense_entry_form.good_or_service.label }}
+        {{ expense_entry_form.good_or_service }}
+        {% if expense_entry_form.good_or_service.errors %}
+        {% for error in expense_entry_form.good_or_service.errors %}
+        <small style="color: red">{{ error }}</small>
+        {% endfor %}
+        {% endif %}
+    </div>
+    {{ expense_entry_form.submit }}
+</form>
+
+{% endblock %}

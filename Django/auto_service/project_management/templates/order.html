@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1>Order details:</h1>
+        <ul>
+            <li><strong>Date:</strong> {{ order.date }}</li>
+            <li><strong>Plate number:</strong> {{ order.car }}</li>
+            <li><strong>Amount:</strong> {{ order.total_price }}</li>
+            <li><strong>Status:</strong> {{ order.status }}</li>
+    </ul>
+    <p>----------------------------------------------------</p>
+{% endblock %}

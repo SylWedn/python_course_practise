@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Enter income data:</h2>
+    <form action="{{ url_for('income') }}" method="post">
+    {{ income_entry_form.hidden_tag() }}
+    <div class="mb-3">
+        {{ income_entry_form.amount.label }}
+        {{ income_entry_form.amount }}
+        {% if income_entry_form.amount.errors %}
+        {% for error in income_entry_form.amount.errors %}
+        <small style="color: red">{{ error }}</small>
+        {% endfor %}
+        {% endif %}
+    </div>
+    <div class="mb-3">
+        {{ income_entry_form.sender.label }}
+        {{ income_entry_form.sender }}
+        {% if income_entry_form.sender.errors %}
+        {% for error in income_entry_form.sender.errors %}
+        <small style="color: red">{{ error }}</small>
+        {% endfor %}
+        {% endif %}
+    </div>
+    <div class="mb-3">
+        {{ income_entry_form.additional_info.label }}
+        {{ income_entry_form.additional_info }}
+        {% if income_entry_form.additional_info.errors %}
+        {% for error in income_entry_form.additional_info.errors %}
+        <small style="color: red">{{ error }}</small>
+        {% endfor %}
+        {% endif %}
+    </div>
+    {{ income_entry_form.submit }}
+</form>
+    {% if report %}
+        <h2>Your report:</h2>
+        {% for entry in report %}
+            {% if entry.type == "income" %}
+                <p>Income: {{ entry.amount }}, {{ entry.sender }}, {{ entry.additional_info }}</p>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endblock %}

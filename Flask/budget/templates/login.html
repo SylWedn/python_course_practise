@@ -1,0 +1,26 @@
+{% if error_message %}
+    {{error_message}}
+{% endif %}
+
+<form action="{{ url_for('login') }}" method="post">
+    {{ form.hidden_tag() }}
+    <div class="mb-3">
+        {{ form.username.label }}
+        {{ form.username }}
+        {% if form.username.errors %}
+        {% for error in form.username.errors %}
+        <small style="color: red">{{ error }}</small>
+        {% endfor %}
+        {% endif %}
+    </div>
+    <div class="mb-3">
+        {{ form.password.label }}
+        {{ form.password }}
+        {% if form.password.errors %}
+        {% for error in form.password.errors %}
+        <small style="color: red">{{ error }}</small>
+        {% endfor %}
+        {% endif %}
+    </div>
+    {{ form.submit }}
+</form>
